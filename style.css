@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Posicionando o container no centro : */
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+}
+
+/* Adicionado tamanho ao container, posicionando os botôes no centro e dando espaço vertical entre eles: */
+.container{
+background-color: whitesmoke;
+width:650px;
+height:400px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px 0;
+border: 2px solid black;
+border-radius: 15px;
+}
+
+/* Dando tamanho aos botôes e estilo: */
+.botoes{
+    border: 3px solid black;
+    width: 300px;
+    height: 70px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: monospace;
+    transition:0.4s;
+}
+
+/* Adicionando interação ao passar o mouse pelo botão: */
+.botoes:hover{
+background-color: gray;
+transition: 0.5s;
+}
